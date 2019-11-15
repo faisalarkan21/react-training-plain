@@ -1,9 +1,16 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
+}
+
+.btn-get-users-active  {
+  background-color: red;
+}
+.btn-get-users-inactive  {
+  background-color: palevioletred;
 }
 
 .App-header {
@@ -19,4 +26,17 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.container{
+  padding: 50px;
+}
+
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+.gutter-box {
+  background: #00a0e9;
+  padding: 5px 0;
 }
